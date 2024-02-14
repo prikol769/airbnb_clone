@@ -4,6 +4,7 @@ import "./globals.css";
 import Navbar from "@/components/navbar/Navbar";
 import RegisterModal from "@/components/modals/RegisterModal";
 import { Toaster } from "react-hot-toast";
+import LoginModal from "@/components/modals/LoginModal";
 
 const nunito = Nunito({ subsets: ["latin"] });
 
@@ -21,6 +22,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={nunito.className}>
         <Toaster />
+        <LoginModal />
         <RegisterModal />
         <Navbar />
         {children}
