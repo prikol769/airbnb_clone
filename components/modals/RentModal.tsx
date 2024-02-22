@@ -275,6 +275,11 @@ const RentModal = () => {
       isOpen={rentModal.isOpen}
       title="Airbnb your home!"
       body={bodyContent}
+      disabledNext={
+        (step === STEPS.LOCATION && location === null) ||
+        (step === STEPS.CATEGORY && category === "") ||
+        (step === STEPS.IMAGES && imageSrc === "")
+      }
     />
   );
 };
