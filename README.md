@@ -1,64 +1,41 @@
+# Full Stack Airbnb Clone with Next.js 13 App Router: React, Tailwind, Prisma, MongoDB, NextAuth
+
 <div align="center">
-  <br />
-    <a href="https://figma-clone-tau.vercel.app/" target="_blank">
-     <img src="https://github.com/JavaScript-Mastery-Pro/figma-ts/assets/151519281/e03dc22d-0f45-464b-9dc3-f01f07906bee" alt="Project Banner">
-    </a>
-  <br />
-
-  <div>
-    <img src="https://img.shields.io/badge/-TypeScript-black?style=for-the-badge&logoColor=white&logo=typescript&color=3178C6" alt="typescript" />
-    <img src="https://img.shields.io/badge/-Next_JS-black?style=for-the-badge&logoColor=white&logo=nextdotjs&color=000000" alt="nextdotjs" />
-    <img src="https://img.shields.io/badge/-Tailwind_CSS-black?style=for-the-badge&logoColor=white&logo=tailwindcss&color=06B6D4" alt="tailwindcss" />
-  </div>
-
-  <h3 align="center">Real Time Figma Clone</h3>
-
-   <div align="center">
+ <a href="https://rent-con3qbalt-prikol769.vercel.app/" target="_blank">
+![Copy of Fullstack Twitter Clone (8)](https://user-images.githubusercontent.com/23248726/229031522-64a49ad0-66f7-4ea8-94a8-f64a0bb56736.png)
+</a>
+ <h3 align="center">Airbnb Clone</h3>
+ <div align="center">
     <a href="https://figma-clone-tau.vercel.app/" target="_blank"><b>https://figma-clone-tau.vercel.app/</b></a>
-    </div>
 </div>
+</div>
+This is a repository for a Full Stack Airbnb Clone with Next.js 13 App Router: React, Tailwind, Prisma, MongoDB, NextAuth.
 
-## 📋 <a name="table">Table of Contents</a>
+Features:
 
-1. 🤖 [Introduction](#introduction)
-2. ⚙️ [Tech Stack](#tech-stack)
-3. 🔋 [Features](#features)
-
-## <a name="introduction">🤖 Introduction</a>
-
-A minimalistic Figma clone to show how to add real-world features like live collaboration with cursor chat, comments, reactions, and drawing designs (shapes, image upload) on the canvas using fabric.js.
-
-## <a name="tech-stack">⚙️ Tech Stack</a>
-
-- Next.js
-- TypeScript
-- Liveblocks
-- Fabric.js
-- Shadcn
-- Tailwind CSS
-
-## <a name="features">🔋 Features</a>
-
-👉 **Multi Cursors, Cursor Chat, and Reactions**: Allows multiple users to collaborate simultaneously by showing individual cursors, enabling real-time chat, and reactions for interactive communication.
-
-👉 **Active Users**: Displays a list of currently active users in the collaborative environment, providing visibility into who is currently engaged.
-
-👉 **Comment Bubbles**: Enables users to attach comments to specific elements on the canvas, fostering communication and feedback on design components.
-
-👉 **Creating Different Shapes**: Provides tools for users to generate a variety of shapes on the canvas, allowing for diverse design elements
-
-👉 **Uploading Images**: Import images onto the canvas, expanding the range of visual content in the design
-
-👉 **Customization**: Allows users to adjust the properties of design elements, offering flexibility in customizing and fine-tuning visual components
-
-👉 **Freeform Drawing**: Enables users to draw freely on the canvas, promoting artistic expression and creative design.
-
-👉 **Undo/Redo**: Provides the ability to reverse (undo) or restore (redo) previous actions, offering flexibility in design decision-making
-
-👉 **Keyboard Actions**: Allows users to utilize keyboard shortcuts for various actions, including copying, pasting, deleting, and triggering shortcuts for features like opening cursor chat, reactions, and more, enhancing efficiency and accessibility.
-
-👉 **History**: Review the chronological history of actions and changes made on the canvas, aiding in project management and version control.
-
-👉 **Deleting, Scaling, Moving, Clearing, Exporting Canvas**: Offers a range of functions for managing design elements, including deletion, scaling, moving, clearing the canvas, and exporting the final design for external use.
-
-and many more, including code architecture, advanced react hooks, and reusability.
+- Tailwind design
+- Tailwind animations and effects
+- Full responsiveness
+- Credential authentication
+- Google authentication
+- Github authentication
+- Image upload using Cloudinary CDN
+- Client form validation and handling using react-hook-form
+- Server error handling using react-toast
+- Calendars with react-date-range
+- Page loading state
+- Page empty state
+- Booking / Reservation system
+- Guest reservation cancellation
+- Owner reservation cancellation
+- Creation and deletion of properties
+- Pricing calculation
+- Advanced search algorithm by category, date range, map location, number of guests, rooms and bathrooms
+  - For example we will filter out properties that have a reservation in your desired date range to travel
+- Favorites system
+- Shareable URL filters
+  - Lets say you select a category, location and date range, you will be able to share URL with a logged out friend in another browser and they will see the same results
+- How to write POST and DELETE routes in route handlers (app/api)
+- How to fetch data in server react components by directly accessing database (WITHOUT API! like Magic!)
+- How to handle files like error.tsx and loading.tsx which are new Next 13 templating files to unify loading and error handling
+- How to handle relations between Server and Child components!
