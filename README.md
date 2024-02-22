@@ -2,14 +2,13 @@
 
 <div align="center">
  <a href="https://rent-con3qbalt-prikol769.vercel.app/" target="_blank">
-![Copy of Fullstack Twitter Clone (8)](https://user-images.githubusercontent.com/23248726/229031522-64a49ad0-66f7-4ea8-94a8-f64a0bb56736.png)
+ <img src="https://user-images.githubusercontent.com/23248726/229031522-64a49ad0-66f7-4ea8-94a8-f64a0bb56736.png" alt="Project Banner">
 </a>
  <h3 align="center">Airbnb Clone</h3>
  <div align="center">
     <a href="https://figma-clone-tau.vercel.app/" target="_blank"><b>https://figma-clone-tau.vercel.app/</b></a>
 </div>
 </div>
-This is a repository for a Full Stack Airbnb Clone with Next.js 13 App Router: React, Tailwind, Prisma, MongoDB, NextAuth.
 
 Features:
 
